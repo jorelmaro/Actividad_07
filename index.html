@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/estilos.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"> </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"> </script>
+      <script src="js/efectos.js" charset="utf-8"></script>
+
+      <title>Psicologia</title>
+   </head>
+
+   <body>
+      <!-- Se crea la nav bar, la clase navbar-expand-sm expresa el punto esta desaparece y se convierte en boton
+      en este caso para small-->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+         <a class="text-white pl-5 titulo paddingTitulo" href="#">
+            Psicologia
+         </a>
+         <!-- Inicio boton que se muestra en caso de que sea un celular -->
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <!-- Fin boton que se muestra en caso de que sea un celular -->
+         <!-- Inicio elementos secundarios navBar-->
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <!--Inicio botones nav bar -->
+            <!-- ml-auto para ir a la derecha-->
+            <!-- pl, pt, pr paddings -->
+            <ul class="navbar-nav ml-auto pl-5 pr-5">
+               <li class="nav-item">
+                  <a class="nav-link text-white textoGrande" href="index.html">Inicio</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white textoGrande" href="enfermedades.html" id="btnEnfermedades">
+                     Enfermedades
+                  </a>
+               </li>
+               <li class="nav-item ">
+                  <a id="btnContactenos" class="nav-link text-white" href="#">Contáctenos</a>
+               </li>
+            </ul>
+            <!-- Fin botones navBar -->
+         </div>
+         <!-- Fin elementos secundarios navBar-->
+      </nav>
+
+      <!-- Slider -->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="imgSlider img-responsive img-fluid" src="./img/imagen4.jpg" alt="First slide">
+               <div class="container">
+                  <div class="carousel-caption text-center text-light">
+                     <!--En caso de querer colocar texto a el slider -->
+                     <h5>"Se enfrentan como amigos o enemigos, como padres e hijos..."</h5>
+                     <h6>Por Vanessa Valencia</h6>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="imgSlider img-responsive img-fluid" src="./img/imagen3.jpg" alt="Second slide">
+               <div class="container">
+                  <div class="carousel-caption text-center text-light">
+                     <h5>La psicología afecta todos los aspectos de la vida cotidiana. Incluidos los negocios</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="imgSlider img-responsive img-fluid" src="./img/imagen5.png" alt="Third slide">
+               <div class="container">
+                  <div class="carousel-caption text-center text-light">
+                     <h5>"Cada cerebro es un universo diferente conformado por infinidades de planetas"</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+         </a>
+      </div>
+      <!-- Fin slider-->
+      <!-- Inicio contenido de la pagina web-->
+      <div class="container">
+         <!-- Inicio columna de definicion-->
+         <div class="row pt-5">
+            <div class="col col-md-6 col-sm-12 col-12 text-justify">
+               <h3>Que es</h3>
+               La psicología es al tiempo una profesión, una disciplina académica​ y una ciencia que trata
+               el estudio y el análisis de la conducta y los procesos mentales de los individuos o de grupos
+               humanos en distintas situaciones,cuyo campo de estudio abarca todos los aspectos de la experiencia 
+               humana y lo hace para fines tanto de investigación como docentes y laborales, entre muchos otros.
+               Hoy en día, la psicología no es una ciencia unitaria, pues existen diversas perspectivas
+               psicológicas que se corresponden con enfoques, corrientes o escuelas
+               cada una de las cuales posee sus propios sistemas conceptuales y metodológicos.
+            </div>
+            <div class="col col-md-6 col-sm-12 col-12 align-self-center">
+               <img src="./img/imagen1.jpg" class="imagen1 img-fluid rounded mx-auto d-block" alt="Imagen de prueba">
+            </div>
+         </div>
+         <!-- Fin columna de definicion-->
+         <!-- Inicio columna de definicion-->
+         <div class="container">
+            <div class="row pb-5 pt-5">
+               <div class="col col-md-6 col-sm-12 col-12 text-justify">
+                  <h3>Caracteristicas</h3>
+                  <ul>
+                     <li>Posee multiples teorías como la cognitiva, el psicoanálisis, la sistémica, la  Gestalt,
+                        la neurociena, la fenomenológica, la positiva y la bioneuroemoción</li>
+                     <li>Posee distintas ramas o ángulos de atención cómo la rama experimental, la rama clínica
+                        y la rama de cuestionarios.</li>
+                     <li>Posee diversas corrientes de estudios</li>
+                     <li>Utiliza la correlación de resultados entre observación e indagación como método de diagnóstico.</li>
+                     <li>Separó los enfoques en ciertas patologías y los catalogó como trastornos mentales</li>
+                     <li>Se vale de distintos métodos de observación</li>
+                     <li>Difiere de la psiquiatría ya que atiende solo los factores emocionales, conductales, ambientales
+                        y otros factores no fisiológicos</li>
+                  </ul>
+               </div>
+               <div class="col col-md-6 col-sm-12 col-12 align-self-center">
+                  <img src="./img/imagen2.jpg" class="imagen2 img-fluid rounded mx-auto d-block" alt="Imagen de prueba">
+               </div>
+            </div>
+         </div>
+         <!-- Fin columna de definicion-->
+      </div>
+      <!-- Fin contenido web -->
+      <div class="container">
+         <div class="row">
+            <div class="col col-md-12 p-3">
+               <div class="video-responsive text-center">
+                  <!--Video -->
+                  <iframe src="https://www.youtube.com/embed/zmHsmvDdMc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <!-- Fin video-->
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Inicio Footer -->
+      <footer class="text-muted bg-dark ">
+         <div id="endOfPage">&nbsp;</div>
+         <div class="container">
+            <div class="row">
+               <div class="col col-md-8 col-sm-12 col-12">
+                  <div class="container text-white pt-4">
+                     <div class="h3 text-center pb-3">
+                        Contactanos si quieres saber más sobre la psicología!
+                     </div>
+                     <form>
+                        <div class="form-group row">
+                           <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                 <span class="input-group-text" id="basic-addon1">Nombre</span>
+                              </div>
+                              <input id="btnContactoNombre" class="form-control" type="text" placeholder="Jaime Rojas">
+                              <div class="valid-feedback">
+                                 Perfecto!
+                              </div>
+                              <div class="invalid-feedback">
+                                 Cual es tu nombre?
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                 <span class="input-group-text" id="basic-addon1">Correo</span>
+                              </div>
+                              <input id="btnContactoCorreo" class="form-control" type="text" placeholder="jaimito1223@gmail.com">
+                              <div class="valid-feedback">
+                                 Perfecto!
+                              </div>
+                              <div class="invalid-feedback">
+                                 Tu correo es invalido, verificalo porfavor
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                           <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                 <span class="input-group-text" id="basic-addon1">Interes</span>
+                              </div>
+                              <input id="btnContactoInteres" class="form-control cajaTextoAlta" type="text" placeholder="Me apasiona la psicolgia">
+                              <div class="valid-feedback">
+                                 Perfecto!
+                              </div>
+                              <div class="invalid-feedback">
+                                 Cuentanos tu interes!
+                              </div>
+                           </div>
+                        </div>
+                        <div class="input-group">
+                           <button type="button" class="btn btn-success btn-block">Enviar</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <div class="col col-md-4 col-sm-12 col-12 p-5 text-center text-white">
+                  <div class="h5 p-3">
+                     Jorge E. Malo Rojas <br>
+                     Desarrollador Web
+                  </div>
+                  <div class="h5 p-3">
+                     BIT - Bogotá Institute of Technology
+                  </div>
+                  <div class="h5 p-3">
+                     Junio 2020
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Inicio Footer -->
+   </body>
+
+</html>

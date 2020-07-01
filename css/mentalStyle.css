@@ -1,0 +1,40 @@
+
+/*Color navbar materialize*/
+nav ul li a:hover {
+  color:white;
+}
+#menu:hover {
+  color:white;
+}
+
+/*Padding tarjetas puras materialize*/
+.paddingTarjeta{
+  padding: 3px;
+}
+
+/*Alto navbar*/
+nav {
+    height: 56px;
+    line-height: 56px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 56px;
+    line-height: 56px;
+}
+
+nav .button-collapse i {
+    height: 56px;
+    line-height: 56px;
+}
+
+nav .brand-logo {
+    font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 56px;
+        line-height: 56px;
+    }
+}
